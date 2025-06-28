@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Dental Care",
+    "icon": "FaTooth"
+  },
+  {
+    "title": "Pulmonary",
+    "icon": "FaLungs",
+    "featured": true
+  },
+  {
+    "title": "Neurological",
+    "icon": "FaBrain"
+  },
+  {
+    "title": "Pediatrics",
+    "icon": "FaClipboard"
+  }
+]

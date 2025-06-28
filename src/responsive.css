@@ -1,0 +1,44 @@
+/* responsive.css */
+
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero section responsive */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .newsletter-box {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .newsletter-box input {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .doctor-card img {
+    height: 220px !important;
+  }
+
+  .service-card {
+    padding: 1rem !important;
+    height: auto !important;
+  }
+}
+
+/* Adjust footer icon spacing on mobile */
+@media (max-width: 640px) {
+  footer .flex {
+    gap: 1rem;
+  }
+}
